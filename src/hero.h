@@ -33,6 +33,14 @@ public:
             std::cout << "Hero suffers..." << std::endl;
         }
     }
+    void addScores (int points)
+    {
+		scores += points;
+	}
+	int getScores ()
+	{
+		return scores;
+	}
 };
 
 #endif // HERO_H_INCLUDED
